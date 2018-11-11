@@ -1,0 +1,28 @@
+// general
+h1,
+h3,
+p,
+ul {
+    margin: 0;
+}
+
+// fonts
+$primary-font: 'Lato',
+sans-serif;
+// colors
+$primary-color:#000;
+$secondary-color:#eee;
+$active-color:#7c7c7c;
+$white:#fff;
+// sizes
+$heading-size:42px;
+$heading-size-md:36px;
+$heading-size-small:26px;
+$content-size:18px;
+$content-size-small:14px;
+// weights
+$bold:700;
+$light:300;
+// breakpoints
+$md-screen: 960px;
+$small-screen: 860px;

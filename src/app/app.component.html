@@ -1,0 +1,8 @@
+<img src="../assets/plus-icon.svg" alt="plus" class="icon" [class.close]="isOpen" [class.plus]="!isOpen" (click)="toggleSidebar($event)" />
+<div class="sidebar" [class.open]="isOpen" [class.close]="!isOpen" #sidebar>
+    <div class="slideshow">
+        <p>Here’s some pictures of my latest trip in Iceland</p>
+    </div>
+</div>
+
+<router-outlet></router-outlet>
