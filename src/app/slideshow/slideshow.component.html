@@ -1,0 +1,10 @@
+<div class="slideshow">
+  <p>Here’s some pictures of my latest trip in Iceland</p>
+  <div class="slide" (click)="next()">
+    <img src="../../assets/{{src}}.jpg" alt="iceland trip" class="img">
+  </div>
+
+  <div class="slide mobile" *ngFor="let image of imagesSrc">
+    <img src="../../assets/{{image}}.jpg" alt="iceland trip" class="img">
+  </div>
+</div>

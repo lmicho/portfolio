@@ -6,22 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 
-
-
 export class AppComponent {
-  title = 'Home Page';
 
-  private isOpen = false;
-
-
-  constructor(
-  ) {
-
+  constructor() { }
+  ngOnInit() {
   }
-
-  toggleSidebar() {
-    (!this.isOpen) ? this.isOpen = true : this.isOpen = false;
-  }
-
 
 }

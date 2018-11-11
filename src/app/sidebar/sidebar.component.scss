@@ -1,0 +1,49 @@
+@import "../../styles.scss";
+.icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    z-index: 4;
+    transition: $default-transition;
+    &.close {
+        transform: rotate(45deg);
+    }
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.sidebar {
+    background-color: $secondary-color;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    margin-right: 100px;
+    transition: $default-transition;
+    z-index: 2;
+    &.open {
+        right: 0;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .icon {
+        width: 15px;
+        height: 15px;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }
+    .sidebar {
+        background: none;
+        margin-right: 0;
+        &.open {
+            background-color: $secondary-color;
+        }
+    }
+}

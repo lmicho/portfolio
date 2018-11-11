@@ -1,0 +1,41 @@
+@import "../../styles.scss";
+.slideshow {
+    width: 700px;
+    margin: 150px auto 0;
+    p {
+        text-align: center;
+        font-family: $primary-font;
+        font-size: $content-size;
+        font-weight: $light;
+        margin-bottom: 25px;
+    }
+    .slide {
+        cursor: pointer;
+        .img {
+            width: 100%;
+        }
+        &.mobile {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: $small-screen) {
+    .slideshow {
+        width: 100%;
+        p {
+            width: 250px;
+            margin: 0 auto 25px;
+        }
+        .slide {
+            display: none;
+            .img {
+                margin-bottom: 25px;
+            }
+            &.mobile {
+                display: block;
+                cursor: default;
+            }
+        }
+    }
+}
