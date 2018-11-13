@@ -41,6 +41,7 @@
     .sidebar {
         background: none;
         margin-right: 0;
+        height: auto;
         &.open {
             background-color: $secondary-color;
         }
