@@ -7,19 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SlideshowComponent implements OnInit {
 
-  private index: number = 0;
+  public imgIndex: number = 0;
   public src: string = '';
-  public imagesSrc: string[] = ["iceland_1", "iceland_2", "iceland_3"];
+  public imagesSrc: string[] = ["iceland_1", "iceland_2", "iceland_3", "iceland_4", "iceland_5", "iceland_6", "iceland_7", "iceland_8"];
 
   constructor() { }
 
   ngOnInit() {
-    this.src = this.imagesSrc[this.index];
+    console.log("info", this.imgIndex)
+    this.src = this.imagesSrc[this.imgIndex];
   }
 
   next() {
-    this.index = this.index + 1;
-    (this.index === (this.imagesSrc.length - 1)) ? this.index = 0 : this.index = this.index;
-    this.src = this.imagesSrc[this.index]
+    this.imgIndex = this.imgIndex + 1;
+    if (this.imgIndex > this.imagesSrc.length - 1)
+      this.imgIndex = 0;
+    this.src = this.imagesSrc[this.imgIndex]
   }
 }

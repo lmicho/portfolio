@@ -10,32 +10,34 @@
         margin-bottom: 25px;
     }
     .slide {
-        cursor: pointer;
         .img {
             width: 100%;
+            margin-bottom: 15px;
+            cursor: pointer;
         }
-        &.mobile {
-            display: none;
+        .indicators {
+            width: 150px;
+            flex-direction: row;
+            display: flex;
+            margin: 0 auto;
+            justify-content: space-evenly;
+        }
+        .indicator {
+            width: 10px;
+            height: 10px;
+            display: block;
+            border: 1px solid $gray;
+            border-radius: 10px;
+            transition: 0.25s ease all;
+            &.active {
+                background-color: $active-color;
+            }
         }
     }
 }
 
 @media screen and (max-width: $small-screen) {
     .slideshow {
-        width: 100%;
-        p {
-            width: 250px;
-            margin: 0 auto 25px;
-        }
-        .slide {
-            display: none;
-            .img {
-                margin-bottom: 25px;
-            }
-            &.mobile {
-                display: block;
-                cursor: default;
-            }
-        }
+        display: none;
     }
 }
