@@ -33,17 +33,9 @@
 
 @media screen and (max-width: $small-screen) {
     .icon {
-        width: 15px;
-        height: 15px;
-        top: 25px;
-        right: 25px;
+        display: none;
     }
     .sidebar {
-        background: none;
-        margin-right: 0;
-        height: auto;
-        &.open {
-            background-color: $secondary-color;
-        }
+        display:none;
     }
 }
