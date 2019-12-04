@@ -1,4 +1,5 @@
-<img src="../assets/plus-icon.svg" alt="plus" class="icon" [class.close]="isOpen" [class.plus]="!isOpen" (click)="toggleSidebar($event)" />
+<img src="../assets/plus-icon.svg" alt="plus" class="icon" [class.close]="isOpen" [class.plus]="!isOpen"
+    (click)="toggleSidebar()" />
 <div class="sidebar" [class.open]="isOpen" [class.close]="!isOpen" #sidebar>
-  <app-slideshow></app-slideshow>
+    <app-gallery></app-gallery>
 </div>

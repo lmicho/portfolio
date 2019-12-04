@@ -1,9 +1,0 @@
-<div class="slideshow">
-  <p>Here’s some pictures of my latest trip in Iceland</p>
-  <div class="slide">
-    <img src="../../assets/{{src}}.jpg" alt="iceland trip" class="img" (click)="next()">
-    <div class="indicators">
-      <span class="indicator" *ngFor="let image of imagesSrc; index as i" [class.active]="i == imgIndex"></span>
-    </div>
-  </div>
-</div>
