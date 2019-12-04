@@ -20,7 +20,7 @@ Actually hosted on: http://laurianemichaud.com
 
 ## Stack
 
-* [Angular 7](https://www.npmjs.com) (7.0)
+* [Angular 8](https://www.npmjs.com) (8.2.14)
 * [Angular CLI](https://github.com/angular/angular-cli) (7.0.2)
 * [npm](https://www.npmjs.com) (6.4.1)
 * SCSS as CSS extension language
