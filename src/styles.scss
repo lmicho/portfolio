@@ -1,37 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
 
-// general
-body {
-    overflow-x: hidden;
+* {
+    font-family: "acumin-pro",
+        sans-serif;
 }
 
-h1,
-h3,
-p,
-ul {
-    margin: 0;
+.locked{
+    overflow:hidden;
 }
-
-// fonts
-$primary-font: 'Lato',
-sans-serif;
-// colors
-$primary-color:#000;
-$secondary-color:#eee;
-$gray:#989696;
-$active-color:#7c7c7c;
-$white:#fff;
-// sizes
-$heading-size:42px;
-$heading-size-md:36px;
-$heading-size-small:26px;
-$content-size:18px;
-$content-size-small:14px;
-// weights
-$bold:700;
-$light:300;
-// transitions
-$default-transition: all 1s ease-in-out;
-// breakpoints
-$md-screen: 960px;
-$small-screen: 915px;

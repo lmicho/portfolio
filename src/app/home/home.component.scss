@@ -1,154 +1,29 @@
-@import "../../styles.scss";
-
-.container {
-    padding: 100px 150px;
+.content {
+    padding: 0.5rem 2rem
 }
 
-.heading {
-    font-family: $primary-font;
-    max-width: 700px;
-
-    .h1,
-    .subtext {
-        font-size: $heading-size;
-        line-height: 60px;
-    }
-
-    .subtext {
-        font-weight: $light;
-    }
-}
-
-.bottom {
+.intro {
+    max-width: 50%;
     margin-top: 150px;
 
-    .infos {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        font-family: $primary-font;
-        width: 550px;
-
-        .title {
-            font-size: $content-size;
-            margin-bottom: 15px;
-        }
-
-        .content {
-            padding: 0;
-
-            li {
-                list-style: none;
-                font-size: $content-size;
-                line-height: 25px;
-
-                a:link,
-                a:visited,
-                a:active {
-                    color: $primary-color;
-                    text-decoration: none;
-                }
-
-                a:hover {
-                    color: $active-color;
-                }
-            }
-        }
-    }
-
-    .cta-download {
-        margin-top: 50px;
-        display: block;
-        width: 154px;
-        height: 24px;
-        padding: 10px 20px;
-        border: 1px solid $primary-color;
-        text-align: center;
-        font-family: $primary-font;
-        font-size: $content-size;
-
-        &:link,
-        &:visited,
-        &:active {
-            color: $primary-color;
-            text-decoration: none;
-        }
-
-        &:hover {
-            background-color: $primary-color;
-            color: $white;
-        }
+    h2 {
+        font-size: 42px;
     }
 }
 
-@media screen and (max-width: $md-screen) {
-    .heading {
-        max-width: 600px;
-
-        .h1,
-        .subtext {
-            font-size: $heading-size-md;
-            line-height: 52px;
-        }
-    }
-
-    .bottom {
-        .infos {
-            width: 465px;
-        }
-    }
+.gallery {
+    margin: 100px 0;
 }
 
-@media screen and (max-width: $small-screen) {
-    .container {
-        padding: 80px 25px;
-    }
+.mansory-wrapper {
+    margin: 0 auto;
+}
 
-    .heading {
-        max-width: 270px;
+.masonry-item {
+    margin-bottom: 20px;
+    width: 33.33%;
 
-        .h1,
-        .subtext {
-            font-size: $heading-size-small;
-            line-height: 35px;
-        }
-    }
-
-    .bottom {
-        position: relative;
-        left: 0;
-        bottom: 0;
-        margin-top: 120px;
-        max-width: 500px;
-
-        .infos {
-            width: 100%;
-            flex-wrap: wrap;
-
-            .info {
-                margin-right: 30px;
-                margin-bottom: 40px;
-
-                .title {
-                    font-size: $content-size-small;
-                }
-
-                .content {
-                    padding: 0;
-
-                    li {
-                        font-size: $content-size-small;
-                        line-height: 20px;
-                    }
-                }
-            }
-        }
-
-        .cta-download {
-            margin-top: 0;
-            font-size: $content-size-small;
-            width: 119px;
-            height: 18px;
-        }
+    img {
+        width: 100%;
     }
 }
