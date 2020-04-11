@@ -9,9 +9,10 @@ import { HeaderComponent } from "./shared/header/header.component";
 import { LazyLoadImageModule, scrollPreset } from "ng-lazyload-image";
 import { NgxMasonryModule} from 'ngx-masonry';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WorkComponent } from './work/work.component';
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, HeaderComponent],
+  declarations: [AppComponent, HomeComponent, AboutComponent, HeaderComponent, WorkComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

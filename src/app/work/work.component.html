@@ -1,0 +1,34 @@
+<div class="content">
+  <div class="intro">
+    <h2>
+      Amateur photographer, food nerd <br />
+      & software engineer based in Montreal, CA.
+    </h2>
+  </div>
+
+  <button type="button" class="btn btn-secondary" (click)="select('street')">
+    Street
+  </button>
+  <button type="button" class="btn btn-secondary" (click)="select('landscape')">
+    Landscape
+  </button>
+  <button type="button" class="btn btn-secondary" (click)="select('outdoors')">
+    Outdoors
+  </button>
+
+  <div class="gallery">
+    <ngx-masonry
+      [options]="myOptions"
+      [useImagesLoaded]="true"
+      class="mansory-wrapper"
+    >
+      <div
+        *ngFor="let picture of masonryImages"
+        class="masonry-item"
+        ngxMasonryItem
+      >
+        <img src="{{ picture.picture }}" />
+      </div>
+    </ngx-masonry>
+  </div>
+</div>
