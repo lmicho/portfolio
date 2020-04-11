@@ -27,3 +27,24 @@
         width: 100%;
     }
 }
+
+
+@media (max-width: 991.98px) {
+
+    .mansory-wrapper {
+        margin: 0;
+    }
+
+    .masonry-item {
+        margin-bottom: 20px;
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .content {
+        padding: 0.5rem 1rem
+    }
+}

@@ -8,6 +8,7 @@ import { AboutComponent } from "./about/about.component";
 import { HeaderComponent } from "./shared/header/header.component";
 import { LazyLoadImageModule, scrollPreset } from "ng-lazyload-image";
 import { NgxMasonryModule} from 'ngx-masonry';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [AppComponent, HomeComponent, AboutComponent, HeaderComponent],
@@ -18,6 +19,7 @@ import { NgxMasonryModule} from 'ngx-masonry';
       preset: scrollPreset,
     }),
     NgxMasonryModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent],

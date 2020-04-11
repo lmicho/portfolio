@@ -6,6 +6,14 @@
         sans-serif;
 }
 
-.locked{
-    overflow:hidden;
+.locked {
+    overflow: hidden;
+}
+
+svg {
+    color: #000;
+
+    :hover {
+        color: #757575
+    }
 }
