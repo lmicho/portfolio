@@ -10,7 +10,7 @@ export class WorkComponent implements OnInit {
   public myOptions: NgxMasonryOptions = {
     transitionDuration: "0.8s",
     gutter: 15,
-    fitWidth: true,
+    fitWidth: true
   };
 
   masonryImages;

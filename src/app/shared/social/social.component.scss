@@ -1,0 +1,36 @@
+@import '../../../styles.scss';
+
+.social {
+    margin-top: 15px;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item {
+        list-style: none;
+        margin-left: 15px;
+
+        :hover {
+            color: $secondary-color;
+        }
+    }
+
+    &__link:link {
+        color: $primary-color;
+    }
+
+    &__link {
+        .svg-inline {
+            color: $primary-color;
+        }
+
+        .svg-inline:hover {
+            color: $secondary-color;
+        }
+    }
+
+    &__link:hover {
+        color: $secondary-color;
+    }
+}

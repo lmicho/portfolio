@@ -6,21 +6,27 @@ import { AppComponent } from "./app.component";
 import { HomeComponent } from "./home/home.component";
 import { AboutComponent } from "./about/about.component";
 import { HeaderComponent } from "./shared/header/header.component";
-import { LazyLoadImageModule, scrollPreset } from "ng-lazyload-image";
-import { NgxMasonryModule} from 'ngx-masonry';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { WorkComponent } from './work/work.component';
+import { NgxMasonryModule } from "ngx-masonry";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { WorkComponent } from "./work/work.component";
+import { SocialComponent } from "./shared/social/social.component";
+import { NavComponent } from "./shared/nav/nav.component";
 
 @NgModule({
-  declarations: [AppComponent, HomeComponent, AboutComponent, HeaderComponent, WorkComponent],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    AboutComponent,
+    HeaderComponent,
+    WorkComponent,
+    SocialComponent,
+    NavComponent,
+  ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LazyLoadImageModule.forRoot({
-      preset: scrollPreset,
-    }),
     NgxMasonryModule,
-    FontAwesomeModule
+    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -1,93 +1,44 @@
-<nav class="navbar navbar-expand-lg navbar-light">
+<nav class="navbar">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12 col-md-8 left">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"
-            ><h1 class="title">Lauriane Michaud</h1></a
-          >
+    <div class="navbar__element">
+      <a class="navbar-brand" routerLink="/"
+        ><h1 class="title">Lauriane Michaud</h1></a
+      >
+      <app-nav></app-nav>
+    </div>
+    <div class="navbar__element">
+      <app-social></app-social>
+      <button class="toggle-button" (click)="toggle($event)">
+        <div class="hamburger" [ngClass]="isOpen ? 'open' : ''">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
         </div>
-
-        <ul class="nav navbar-nav">
-          <li class="active">
-            <a routerLink="/work" routerLinkActive="active">Work</a>
-          </li>
-          <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-        </ul>
-      </div>
-      <div class="col-xs-6 col-md-4 right">
-        <div class="social-bar">
-          <ul>
-            <li>
-              <a href="mailto:lauriane.b.michaud@gmail.com" target="_blank"
-                ><fa-icon [icon]="faEmail"></fa-icon
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/l_michoo/" target="_blank"
-                ><fa-icon [icon]="faInstagram"></fa-icon
-              ></a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/laurianemichaud/"
-                target="_blank"
-                ><fa-icon [icon]="faLinkedin"></fa-icon
-              ></a>
-            </li>
-            <li>
-              <a href="https://github.com/lmicho/" target="_blank"
-                ><fa-icon [icon]="faGithub"></fa-icon
-              ></a>
-            </li>
-          </ul>
-        </div>
-        <button class="toggle #toggleMenu" (click)="toggle($event)">
-          <div id="nav-icon2" [ngClass]="isOpen ? 'open' : ''">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </button>
-      </div>
+      </button>
     </div>
   </div>
 </nav>
 <div class="overlay" [ngClass]="isOpen ? 'open' : 'closed'">
   <div class="info">
-    <ul class="nav navbar-nav">
+    <app-nav></app-nav>
+    <!--ul class="nav navbar-nav">
       <li class="active">
-        <a routerLink="/work" routerLinkActive="active">Work</a>
+        <a routerLink="/work" routerLinkActive="active" (click)="toggle($event)"
+          >Work</a
+        >
       </li>
-      <li><a routerLink="/about" routerLinkActive="active">About</a></li>
-    </ul>
-
-    <div class="social-bar">
-      <ul>
-        <li>
-          <a href="mailto:lauriane.b.michaud@gmail.com" target="_blank"
-            ><fa-icon [icon]="faEmail"></fa-icon
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/l_michoo/" target="_blank"
-            ><fa-icon [icon]="faInstagram"></fa-icon
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/laurianemichaud/" target="_blank"
-            ><fa-icon [icon]="faLinkedin"></fa-icon
-          ></a>
-        </li>
-        <li>
-          <a href="https://github.com/lmicho/" target="_blank"
-            ><fa-icon [icon]="faGithub"></fa-icon
-          ></a>
-        </li>
-      </ul>
-    </div>
+      <li>
+        <a
+          routerLink="/about"
+          routerLinkActive="active"
+          (click)="toggle($event)"
+          >About</a
+        >
+      </li>
+    </ul-->
+    <app-social></app-social>
   </div>
 </div>

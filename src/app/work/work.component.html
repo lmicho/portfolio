@@ -1,20 +1,23 @@
 <div class="content">
   <div class="intro">
-    <h2>
-      Amateur photographer, food nerd <br />
-      & software engineer based in Montreal, CA.
-    </h2>
+    <button type="button" class="btn btn-secondary" (click)="select('street')">
+      Street
+    </button>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      (click)="select('landscape')"
+    >
+      Landscape
+    </button>
+    <button
+      type="button"
+      class="btn btn-secondary"
+      (click)="select('outdoors')"
+    >
+      Outdoors
+    </button>
   </div>
-
-  <button type="button" class="btn btn-secondary" (click)="select('street')">
-    Street
-  </button>
-  <button type="button" class="btn btn-secondary" (click)="select('landscape')">
-    Landscape
-  </button>
-  <button type="button" class="btn btn-secondary" (click)="select('outdoors')">
-    Outdoors
-  </button>
 
   <div class="gallery">
     <ngx-masonry

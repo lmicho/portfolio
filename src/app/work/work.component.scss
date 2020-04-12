@@ -1,13 +1,17 @@
 .content {
-    padding: 0.5rem 2rem
+    padding: 0.5rem 1rem
 }
 
 .intro {
-    max-width: 50%;
+
     margin-top: 150px;
 
     h2 {
         font-size: 42px;
+    }
+
+    button{
+        margin-right:15px;
     }
 }
 
@@ -16,7 +20,7 @@
 }
 
 .mansory-wrapper {
-    margin: 0 auto;
+    //margin: 0 auto;
 }
 
 .masonry-item {
@@ -29,7 +33,7 @@
 }
 
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
 
     .mansory-wrapper {
         margin: 0;
@@ -47,4 +51,36 @@
     .content {
         padding: 0.5rem 1rem
     }
+}
+
+@media (max-width: 900px) {
+
+
+
+    .masonry-item {
+        margin-bottom: 20px;
+        width: 50%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+  
+}
+
+@media (max-width: 600px) {
+
+
+
+    .masonry-item {
+        margin-bottom: 20px;
+        width: 100%;
+
+        img {
+            width: 100%;
+        }
+    }
+
+  
 }

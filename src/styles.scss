@@ -1,9 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import "node_modules/bootstrap/scss/functions.scss";
+@import "node_modules/bootstrap/scss/variables.scss";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints.scss";
 
-* {
-    font-family: "acumin-pro",
-        sans-serif;
+
+/* variables */
+$primary-font : "acumin-pro",
+sans-serif;
+$secondary-font: "Poppins",
+sans-serif;
+$primary-color:#2d2d2d;
+$secondary-color:#757575;
+$white: #fff;
+
+h1,
+h2,
+h3,
+li,
+a {
+    font-family: $primary-font;
+    color: $primary-color
+}
+
+p {
+    font-family: $secondary-font;
+    color: $primary-color
 }
 
 .locked {
@@ -11,9 +33,9 @@
 }
 
 svg {
-    color: #000;
+    color: $primary-color;
+}
 
-    :hover {
-        color: #757575
-    }
+svg:hover {
+    color: $secondary-color;
 }
