@@ -21,24 +21,14 @@
     </div>
   </div>
 </nav>
-<div class="overlay" [ngClass]="isOpen ? 'open' : 'closed'">
-  <div class="info">
+<div
+  class="overlay"
+  [ngClass]="isOpen ? 'open' : 'closed'"
+  #overlay
+  (click)="toggle($event)"
+>
+  <div class="menu">
     <app-nav></app-nav>
-    <!--ul class="nav navbar-nav">
-      <li class="active">
-        <a routerLink="/work" routerLinkActive="active" (click)="toggle($event)"
-          >Work</a
-        >
-      </li>
-      <li>
-        <a
-          routerLink="/about"
-          routerLinkActive="active"
-          (click)="toggle($event)"
-          >About</a
-        >
-      </li>
-    </ul-->
     <app-social></app-social>
   </div>
 </div>

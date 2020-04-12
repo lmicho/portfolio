@@ -1,4 +1,10 @@
-import { Component, OnInit, Inject } from "@angular/core";
+import {
+  Component,
+  OnInit,
+  Inject,
+  ViewChild,
+  ElementRef,
+} from "@angular/core";
 import { DOCUMENT } from "@angular/common";
 
 @Component({
@@ -7,6 +13,7 @@ import { DOCUMENT } from "@angular/common";
   styleUrls: ["./header.component.scss"],
 })
 export class HeaderComponent implements OnInit {
+  @ViewChild("overlay") overlay: ElementRef;
   public isOpen: boolean = false;
   private isLocked = this.document.body.classList.contains("locked");
 
@@ -14,10 +21,15 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {}
 
-  public toggle(event: Event) {
-    this.isOpen = !this.isOpen;
-    this.isLocked
-      ? this.document.body.classList.remove("locked")
-      : this.document.body.classList.add("locked");
+  public toggle(event) {
+    if (
+      event.target.classList.contains("hamburger") ||
+      event.target.classList.contains("nav__link")
+    ) {
+      this.isOpen = !this.isOpen;
+      this.isLocked
+        ? this.document.body.classList.remove("locked")
+        : this.document.body.classList.add("locked");
+    }
   }
 }
