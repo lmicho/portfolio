@@ -7,15 +7,13 @@ import { NgxMasonryOptions } from "ngx-masonry";
   styleUrls: ["./home.component.scss"],
 })
 export class HomeComponent implements OnInit {
-  public myOptions: NgxMasonryOptions = {
+  public options: NgxMasonryOptions = {
     transitionDuration: "0.8s",
-    gutter: 15,
-    fitWidth: true,
-    percentPosition: true
+    gutter: 10,
+    percentPosition: true,
   };
 
   masonryImages;
-  limit = 15;
   dummyPictures = [
     {
       picture: "assets/images/26A89166-E365-4479-AD0D-5895133F39A0.jpg",
@@ -74,11 +72,10 @@ export class HomeComponent implements OnInit {
   ];
 
   ngOnInit() {
-    this.masonryImages = this.dummyPictures.slice(0, this.limit);
+    this.masonryImages = this.dummyPictures;
   }
 
   showMoreImages() {
-    this.limit += 15;
-    this.masonryImages = this.dummyPictures.slice(0, this.limit);
+    this.masonryImages = this.dummyPictures;
   }
 }

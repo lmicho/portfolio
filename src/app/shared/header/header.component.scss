@@ -44,7 +44,12 @@
             @include media-breakpoint-down(md) {
                 display: block;
             }
+
         }
+    }
+
+    @include media-breakpoint-down(md) {
+        padding: 0;
     }
 }
 
@@ -157,32 +162,6 @@
     }
 }
 
-@media (max-width: 991.98px) {
-    .toggle {
-        display: block;
-
-    }
-
-    ul.nav {
-        display: none;
-    }
-
-    .social {
-        display: none;
-
-        ul {
-            justify-content: center;
-        }
-
-    }
-
-    .hamburger {
-
-        margin: 0 auto;
-
-    }
-}
-
 .overlay {
     position: absolute;
     top: 0;
@@ -225,9 +204,7 @@
 
             .social {
                 margin-top: 100px;
-                padding-top: 10px;
                 display: inline-block;
-                border-top: 1px solid $secondary-color;
 
                 &__list {
                     margin: 0;

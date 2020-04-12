@@ -2,19 +2,20 @@ import { Component, OnInit } from "@angular/core";
 import { NgxMasonryOptions } from "ngx-masonry";
 
 @Component({
-  selector: "app-home",
+  selector: "app-work",
   templateUrl: "./work.component.html",
   styleUrls: ["./work.component.scss"],
 })
 export class WorkComponent implements OnInit {
-  public myOptions: NgxMasonryOptions = {
+  public options: NgxMasonryOptions = {
     transitionDuration: "0.8s",
-    gutter: 15,
-    fitWidth: true
+    gutter: 10,
+    percentPosition: true,
   };
 
+  public selectedCategory: string = "all";
+
   masonryImages;
-  limit = 15;
   dummyPictures = [
     {
       picture: "assets/images/26A89166-E365-4479-AD0D-5895133F39A0.jpg",
@@ -91,20 +92,19 @@ export class WorkComponent implements OnInit {
   ];
 
   ngOnInit() {
-    //let sousGroup = this.dummyPictures.filter((x) => x.tag === "outdoors");
-    //this.masonryImages = sousGroup.slice(0, this.limit);
-
-    this.masonryImages = this.dummyPictures.slice(0, this.limit);
+    this.select("all");
   }
 
   showMoreImages() {
-    this.limit += 15;
-    this.masonryImages = this.dummyPictures.slice(0, this.limit);
+    this.masonryImages = this.dummyPictures;
   }
-
   public select(option) {
-    console.log(option);
-    let sousGroup = this.dummyPictures.filter((x) => x.tag === option);
-    this.masonryImages = sousGroup.slice(0, this.limit);
+    this.selectedCategory = option;
+    if (option === "all") {
+      this.masonryImages = this.dummyPictures;
+    } else {
+      let sousGroup = this.dummyPictures.filter((x) => x.tag === option);
+      this.masonryImages = sousGroup;
+    }
   }
 }

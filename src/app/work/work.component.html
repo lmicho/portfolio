@@ -1,18 +1,33 @@
 <div class="content">
-  <div class="intro">
-    <button type="button" class="btn btn-secondary" (click)="select('street')">
-      Street
+  <div class="sort">
+    <button
+      type="button"
+      class="btn btn-light"
+      [ngClass]="selectedCategory === 'all' ? 'active' : ''"
+      (click)="select('all')"
+    >
+      All
     </button>
     <button
       type="button"
-      class="btn btn-secondary"
+      class="btn btn-light"
+      [ngClass]="selectedCategory === 'street' ? 'active' : ''"
+      (click)="select('street')"
+    >
+      Street Photography
+    </button>
+    <button
+      type="button"
+      class="btn btn-light"
+      [ngClass]="selectedCategory === 'landscape' ? 'active' : ''"
       (click)="select('landscape')"
     >
-      Landscape
+      Landscapes
     </button>
     <button
       type="button"
-      class="btn btn-secondary"
+      class="btn btn-light"
+      [ngClass]="selectedCategory === 'outdoors' ? 'active' : ''"
       (click)="select('outdoors')"
     >
       Outdoors
@@ -21,7 +36,7 @@
 
   <div class="gallery">
     <ngx-masonry
-      [options]="myOptions"
+      [options]="options"
       [useImagesLoaded]="true"
       class="mansory-wrapper"
     >

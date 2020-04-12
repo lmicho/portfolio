@@ -39,3 +39,16 @@ svg {
 svg:hover {
     color: $secondary-color;
 }
+
+.content {
+    padding-top: 150px;
+
+    @include media-breakpoint-down(md) {
+        padding-top: 60px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-top: 30px;
+    }
+
+}
