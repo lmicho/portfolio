@@ -6,19 +6,5 @@
     </h2>
   </div>
 
-  <div class="gallery">
-    <ngx-masonry
-      [options]="options"
-      [useImagesLoaded]="true"
-      class="mansory-wrapper"
-    >
-      <div
-        *ngFor="let picture of masonryImages"
-        class="masonry-item"
-        ngxMasonryItem
-      >
-        <img src="{{ picture.picture }}" />
-      </div>
-    </ngx-masonry>
-  </div>
+  <app-gallery [sort]="false" [featured]="true"></app-gallery>
 </div>

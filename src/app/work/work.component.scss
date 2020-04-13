@@ -1,37 +1,7 @@
 @import '../../styles.scss';
 
-.sort {
-    h2 {
-        font-size: 42px;
+::ng-deep {
+    .gallery {
+        margin: 20px 0;
     }
-
-    button {
-        margin-right: 10px;
-    }
-}
-
-.gallery {
-    margin: 20px 0;
-}
-
-.mansory-wrapper {
-    margin: 0 auto
-}
-
-.masonry-item {
-    margin-bottom: 10px;
-    width: 32.5%;
-
-    img {
-        width: 100%;
-    }
-
-    @include media-breakpoint-down(md) {
-        width: 49%;
-    }
-
-    @include media-breakpoint-down(sm) {
-        width: 100%;
-    }
-
 }

@@ -11,6 +11,7 @@ import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
 import { WorkComponent } from "./work/work.component";
 import { SocialComponent } from "./shared/social/social.component";
 import { NavComponent } from "./shared/nav/nav.component";
+import { GalleryComponent } from './shared/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { NavComponent } from "./shared/nav/nav.component";
     WorkComponent,
     SocialComponent,
     NavComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,
