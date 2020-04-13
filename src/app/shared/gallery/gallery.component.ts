@@ -4,7 +4,6 @@ import {
   Input,
   Inject,
   ElementRef,
-  AfterViewInit,
   ViewChild,
 } from "@angular/core";
 import { NgxMasonryOptions } from "ngx-masonry";
@@ -22,7 +21,7 @@ export interface Picture {
   templateUrl: "./gallery.component.html",
   styleUrls: ["./gallery.component.scss"],
 })
-export class GalleryComponent implements OnInit, AfterViewInit {
+export class GalleryComponent implements OnInit {
   @Input("sort") sort: ElementRef;
   @Input("featured") featured: ElementRef;
   @ViewChild("overlay") overlay: ElementRef;
@@ -43,17 +42,12 @@ export class GalleryComponent implements OnInit, AfterViewInit {
   }
 
   ngOnInit(): void {
-    console.log(this.rawPictures);
     if (this.featured) {
       let sousGroup = this.rawPictures.filter((x) => x.featured === true);
       this.masonryImages = sousGroup;
     } else {
       this.select("all");
     }
-  }
-
-  ngAfterViewInit(): void {
-    console.log(this.sort);
   }
 
   public select(option) {

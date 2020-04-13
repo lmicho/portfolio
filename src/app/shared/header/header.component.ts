@@ -21,8 +21,6 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {}
 
   public toggle(event) {
-    console.log(event.target.classList);
-    console.log(this.document.body.classList.contains("locked"));
     if (
       event.target.classList.contains("hamburger") ||
       event.target.classList.contains("toggle-button") ||
