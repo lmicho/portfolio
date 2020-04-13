@@ -1,0 +1,34 @@
+<nav class="navbar">
+  <div class="container-fluid">
+    <div class="navbar__element">
+      <a class="navbar-brand" routerLink="/"
+        ><h1 class="title">Lauriane Michaud</h1></a
+      >
+      <app-nav></app-nav>
+    </div>
+    <div class="navbar__element">
+      <app-social></app-social>
+      <button class="toggle-button" (click)="toggle($event)">
+        <div class="hamburger" [ngClass]="isOpen ? 'open' : ''">
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+          <span class="hamburger__line"></span>
+        </div>
+      </button>
+    </div>
+  </div>
+</nav>
+<div
+  class="overlay"
+  [ngClass]="isOpen ? 'open' : 'closed'"
+  #overlay
+  (click)="toggle($event)"
+>
+  <div class="menu">
+    <app-nav></app-nav>
+    <app-social></app-social>
+  </div>
+</div>

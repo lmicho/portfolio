@@ -1,0 +1,51 @@
+@import '../../../styles.scss';
+
+.nav {
+    margin-top: -5px;
+
+    &__link,
+    &__link.active {
+        color: $primary-color;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        display: inline-block;
+        padding: 15px 0px;
+        position: relative;
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    &__link:after,
+    &__link.active:after {
+        background: none repeat scroll 0 0 transparent;
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 2px;
+        left: 50%;
+        position: absolute;
+        background: $secondary-color;
+        transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        width: 0;
+    }
+
+    &__link:hover:after {
+        width: 100%;
+        left: 0;
+    }
+
+    &__link.active:after {
+        width: 100%;
+        left: 0;
+        background: $primary-color;
+    }
+
+    &__link:hover {
+        color: $secondary-color;
+        text-decoration: none;
+    }
+
+    &__link.active:hover:after {
+        background: $secondary-color !important;
+    }
+}

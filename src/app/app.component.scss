@@ -1,1 +1,18 @@
-  @import "../styles.scss";
+@import '../styles.scss';
+
+.wrapper {
+    padding: 0 5rem;
+
+    @include media-breakpoint-down(lg) {
+        padding: 0 3rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        padding: 0 2rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding: 0 1.5rem;
+    }
+
+}

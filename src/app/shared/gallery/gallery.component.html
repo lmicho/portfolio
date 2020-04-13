@@ -1,0 +1,75 @@
+<div class="sort" *ngIf="sort">
+  <button
+    type="button"
+    class="btn btn-light"
+    [ngClass]="selectedCategory === 'all' ? 'active' : ''"
+    (click)="select('all')"
+  >
+    All
+  </button>
+  <button
+    type="button"
+    class="btn btn-light"
+    [ngClass]="selectedCategory === 'street' ? 'active' : ''"
+    (click)="select('street')"
+  >
+    Street Photography
+  </button>
+  <button
+    type="button"
+    class="btn btn-light"
+    [ngClass]="selectedCategory === 'landscape' ? 'active' : ''"
+    (click)="select('landscape')"
+  >
+    Landscapes
+  </button>
+  <button
+    type="button"
+    class="btn btn-light"
+    [ngClass]="selectedCategory === 'outdoors' ? 'active' : ''"
+    (click)="select('outdoors')"
+  >
+    Outdoors
+  </button>
+</div>
+
+<div class="gallery">
+  <ngx-masonry
+    [options]="options"
+    [useImagesLoaded]="true"
+    class="mansory-wrapper"
+  >
+    <div
+      *ngFor="let picture of masonryImages"
+      class="masonry-item"
+      (click)="zoom(picture.picture, picture.orientation)"
+      ngxMasonryItem
+    >
+      <img src="{{ picture.picture }}" />
+    </div>
+  </ngx-masonry>
+</div>
+
+<div class="overlay" [ngClass]="isOpen ? 'open' : 'closed'" #overlay>
+  <div class="overlay__background"></div>
+  <div class="overlay__header">
+    <button class="close-button" (click)="zoom()">
+      <div class="hamburger open">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </div>
+    </button>
+  </div>
+  <div class="overlay__image">
+    <img
+      class="picture"
+      *ngIf="overlayImage"
+      [ngClass]="isPortrait ? 'portrait' : 'landscape'"
+      [src]="overlayImage"
+    />
+  </div>
+</div>

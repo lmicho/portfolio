@@ -1,0 +1,42 @@
+@import '../../styles.scss';
+
+.content {
+    display: flex;
+    justify-content: space-between;
+
+    @include media-breakpoint-down(md) {
+        flex-direction: column-reverse;
+    }
+}
+
+.text {
+    width: 45%;
+
+    h2 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+    }
+}
+
+.image-banner {
+    width: 50%;
+
+    img {
+        width: 100%;
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
