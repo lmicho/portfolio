@@ -8,16 +8,7 @@
     </div>
     <div class="navbar__element">
       <app-social></app-social>
-      <button class="toggle-button" (click)="toggle($event)">
-        <div class="hamburger" [ngClass]="isOpen ? 'open' : ''">
-          <span class="hamburger__line"></span>
-          <span class="hamburger__line"></span>
-          <span class="hamburger__line"></span>
-          <span class="hamburger__line"></span>
-          <span class="hamburger__line"></span>
-          <span class="hamburger__line"></span>
-        </div>
-      </button>
+      <app-button [isOpen]="isOpen" (click)="toggle($event)" class="toggle-button"></app-button>
     </div>
   </div>
 </nav>

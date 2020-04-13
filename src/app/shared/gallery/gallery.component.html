@@ -53,16 +53,7 @@
 <div class="overlay" [ngClass]="isOpen ? 'open' : 'closed'" #overlay>
   <div class="overlay__background"></div>
   <div class="overlay__header">
-    <button class="close-button" (click)="zoom()">
-      <div class="hamburger open">
-        <span class="hamburger__line"></span>
-        <span class="hamburger__line"></span>
-        <span class="hamburger__line"></span>
-        <span class="hamburger__line"></span>
-        <span class="hamburger__line"></span>
-        <span class="hamburger__line"></span>
-      </div>
-    </button>
+    <app-button [isOpen]="true" (click)="zoom()" class="close-button"></app-button>
   </div>
   <div class="overlay__image">
     <img

@@ -1,11 +1,4 @@
-import {
-  Component,
-  OnInit,
-  Input,
-  Inject,
-  ElementRef,
-  ViewChild,
-} from "@angular/core";
+import { Component, OnInit, Input, Inject, ElementRef } from "@angular/core";
 import { NgxMasonryOptions } from "ngx-masonry";
 import * as data from "../../../assets/images.json";
 import { DOCUMENT } from "@angular/common";
@@ -24,7 +17,6 @@ export interface Picture {
 export class GalleryComponent implements OnInit {
   @Input("sort") sort: ElementRef;
   @Input("featured") featured: ElementRef;
-  @ViewChild("overlay") overlay: ElementRef;
   public options: NgxMasonryOptions = {
     transitionDuration: "0.8s",
     gutter: 10,
@@ -32,7 +24,7 @@ export class GalleryComponent implements OnInit {
   };
   public selectedCategory: string = "all";
   public masonryImages: Array<Picture>;
-  public rawPictures = [data.default][0];
+  public rawPictures: Array<Picture> = data["default"];
   public isOpen: boolean = false;
   public overlayImage: string;
   public isPortrait: boolean = false;
