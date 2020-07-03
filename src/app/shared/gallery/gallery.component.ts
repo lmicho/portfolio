@@ -1,4 +1,11 @@
-import { Component, OnInit, Input, Inject, ElementRef } from "@angular/core";
+import {
+  Component,
+  OnInit,
+  Input,
+  Inject,
+  ElementRef,
+  HostListener,
+} from "@angular/core";
 import { NgxMasonryOptions } from "ngx-masonry";
 import * as data from "../../../assets/images.json";
 import { DOCUMENT } from "@angular/common";
@@ -24,13 +31,24 @@ export class GalleryComponent implements OnInit {
   };
   public selectedCategory: string = "all";
   public masonryImages: Array<Picture>;
-  public rawPictures: Array<Picture> = data["default"];
+  public rawPictures: Array<Picture> = data["default"].sort(
+    () => Math.random() - 0.5
+  );
   public isOpen: boolean = false;
   public overlayImage: string;
-  public isPortrait: boolean = false;
+  public noImages: boolean;
 
   constructor(@Inject(DOCUMENT) private document: Document) {
     this.masonryImages = this.rawPictures;
+  }
+
+  @HostListener("document:keydown", ["$event"]) onKeydownHandler(
+    event: KeyboardEvent
+  ) {
+    const ESCAPE_KEYCODE = 27;
+    if (event.keyCode === ESCAPE_KEYCODE) {
+      this.zoom();
+    }
   }
 
   ngOnInit(): void {
@@ -38,29 +56,29 @@ export class GalleryComponent implements OnInit {
       let sousGroup = this.rawPictures.filter((x) => x.featured === true);
       this.masonryImages = sousGroup;
     } else {
-      this.select("all");
+      this.select("street");
     }
   }
 
   public select(option) {
+    console.log('asd', option)
     this.selectedCategory = option;
     if (option === "all") {
       this.masonryImages = this.rawPictures;
     } else {
-      let sousGroup = this.rawPictures.filter((x) => x.tag === option);
+      let sousGroup = this.rawPictures.filter((x) => x.tag.includes(option));
       this.masonryImages = sousGroup;
+      this.noImages = sousGroup.length === 0 ? true : false;
     }
   }
 
-  public zoom(src?, orientation?) {
-    if (window.innerWidth < 992) {
-    } else {
+  public zoom(event?, src?) {
+    if (window.innerWidth > 992) {
       this.isOpen = !this.isOpen;
       this.document.body.classList.contains("locked")
         ? this.document.body.classList.remove("locked")
         : this.document.body.classList.add("locked");
       this.overlayImage = src;
-      this.isPortrait = orientation === "portrait" ? true : false;
     }
   }
 }
