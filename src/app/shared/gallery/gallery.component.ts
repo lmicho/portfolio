@@ -9,6 +9,13 @@ import {
 import { NgxMasonryOptions } from "ngx-masonry";
 import * as data from "../../../assets/images.json";
 import { DOCUMENT } from "@angular/common";
+import { HttpClient, HttpHeaders } from "@angular/common/http";
+
+export interface Image {
+  src: string;
+  tag: string;
+  feature: boolean;
+}
 
 export interface Picture {
   picture: string;
@@ -38,7 +45,10 @@ export class GalleryComponent implements OnInit {
   public overlayImage: string;
   public noImages: boolean;
 
-  constructor(@Inject(DOCUMENT) private document: Document) {
+  constructor(
+    @Inject(DOCUMENT) private document: Document,
+    private http: HttpClient
+  ) {
     this.masonryImages = this.rawPictures;
   }
 
@@ -61,15 +71,10 @@ export class GalleryComponent implements OnInit {
   }
 
   public select(option) {
-    console.log('asd', option)
     this.selectedCategory = option;
-    if (option === "all") {
-      this.masonryImages = this.rawPictures;
-    } else {
-      let sousGroup = this.rawPictures.filter((x) => x.tag.includes(option));
-      this.masonryImages = sousGroup;
-      this.noImages = sousGroup.length === 0 ? true : false;
-    }
+    let sousGroup = this.rawPictures.filter((x) => x.tag.includes(option));
+    this.masonryImages = sousGroup;
+    this.noImages = sousGroup.length === 0 ? true : false;
   }
 
   public zoom(event?, src?) {
