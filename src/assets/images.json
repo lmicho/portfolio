@@ -445,16 +445,6 @@
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_4.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_5.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/toronto_1.jpg",
     "tag": "street",
     "featured": false
@@ -635,11 +625,6 @@
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_8.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_9.jpg",
     "tag": "street",
     "featured": false
@@ -705,22 +690,12 @@
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_16.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_17.jpg",
     "tag": "street",
     "featured": false
   },
   {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/park_3.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/park_4.jpg",
     "tag": "street",
     "featured": false
   },
@@ -752,11 +727,6 @@
   {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_12.jpg",
     "tag": "street, black",
-    "featured": false
-  },
-  {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_8.jpg",
-    "tag": "street",
     "featured": false
   },
   {
@@ -951,11 +921,6 @@
   },
   {
     "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_13.jpg",
-    "tag": "street",
-    "featured": false
-  },
-  {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_14.jpg",
     "tag": "street",
     "featured": false
   },
