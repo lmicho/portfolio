@@ -80,11 +80,14 @@ export class GalleryComponent implements OnInit {
   public zoom(event?, src?) {
     if (window.innerWidth > 992) {
       this.isOpen = !this.isOpen;
-      this.document.body.classList.contains("locked")
-        ? this.document.body.classList.remove("locked")
-        : this.document.body.classList.add("locked");
-      this.overlayImage =
-        "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/" + src;
+
+      if (this.document.body.classList.contains("locked")) {
+        this.document.body.classList.remove("locked");
+        this.overlayImage = null;
+      } else {
+        this.document.body.classList.add("locked");
+        this.overlayImage = `https://portfolio-image-lm.s3.us-east-2.amazonaws.com/${src}`;
+      }
     }
   }
 }
