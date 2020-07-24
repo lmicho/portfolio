@@ -83,7 +83,8 @@ export class GalleryComponent implements OnInit {
       this.document.body.classList.contains("locked")
         ? this.document.body.classList.remove("locked")
         : this.document.body.classList.add("locked");
-      this.overlayImage = src;
+      this.overlayImage =
+        "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/" + src;
     }
   }
 }

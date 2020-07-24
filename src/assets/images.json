@@ -1,1076 +1,1076 @@
 [
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/mont-royal_1.jpg",
+    "src": "mont-royal_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_1.jpg",
+    "src": "montreal_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_2.jpg",
+    "src": "montreal_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_3.jpg",
+    "src": "montreal_3.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_5.jpg",
+    "src": "man_5.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/itinerant_1.jpg",
+    "src": "itinerant_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_1.jpg",
+    "src": "man_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_6.jpg",
+    "src": "store_6.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_3.jpg",
+    "src": "man_3.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/cityscape_1.jpg",
+    "src": "cityscape_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/cityscape_2.jpg",
+    "src": "cityscape_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/tourists_1.jpg",
+    "src": "tourists_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/farine_1.jpg",
+    "src": "farine_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rider_1.jpg",
+    "src": "rider_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_1.jpg",
+    "src": "vieux_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/collective_1.jpg",
+    "src": "collective_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_2.jpg",
+    "src": "vieux_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/olive_1.jpg",
+    "src": "olive_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_2.jpg",
+    "src": "couple_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/habitat_1.jpg",
+    "src": "habitat_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_3.jpg",
+    "src": "couple_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/bota_1.jpg",
+    "src": "bota_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_1.jpg",
+    "src": "woman_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_2.jpg",
+    "src": "woman_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_4.jpg",
+    "src": "man_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_4.jpg",
+    "src": "couple_4.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/mont-royal_2.jpg",
+    "src": "mont-royal_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_1.jpg",
+    "src": "store_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_2.jpg",
+    "src": "store_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/park_1.jpg",
+    "src": "park_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/hike_1.jpg",
+    "src": "hike_1.jpg",
     "tag": "black, adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sepaq_1.jpg",
+    "src": "sepaq_1.jpg",
     "tag": "adventure",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/gaspesie_1.jpg",
+    "src": "gaspesie_1.jpg",
     "tag": "adventure",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_4.jpg",
+    "src": "woman_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/islande_1.jpg",
+    "src": "islande_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/islande_2.jpg",
+    "src": "islande_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/gaspesie_2.jpg",
+    "src": "gaspesie_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_1.jpg",
+    "src": "italie_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/beach_1.jpg",
+    "src": "beach_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/new-orlean_1.jpg",
+    "src": "new-orlean_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/new-orlean_2.jpg",
+    "src": "new-orlean_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/new-orlean_3.jpg",
+    "src": "new-orlean_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/gaspesie_3.jpg",
+    "src": "gaspesie_3.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/orford_1.jpg",
+    "src": "orford_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/islande_3.jpg",
+    "src": "islande_3.jpg",
     "tag": "adventure",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rdl_1.jpg",
+    "src": "rdl_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_6.jpg",
+    "src": "man_6.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_2.jpg",
+    "src": "italie_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/bea_1.jpg",
+    "src": "bea_1.jpg",
     "tag": "people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_3.jpg",
+    "src": "vieux_3.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_4.jpg",
+    "src": "montreal_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rdl_2.jpg",
+    "src": "rdl_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/cityscape_3.jpg",
+    "src": "cityscape_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/winter_1.jpg",
+    "src": "winter_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/mont-royal_3.jpg",
+    "src": "mont-royal_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/cityscape_4.jpg",
+    "src": "cityscape_4.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_7.jpg",
+    "src": "man_7.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sunlife_1.jpg",
+    "src": "sunlife_1.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/metro_1.jpg",
+    "src": "metro_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/pjc_1.jpg",
+    "src": "pjc_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/women_1.jpg",
+    "src": "women_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_1.jpg",
+    "src": "men_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/gaspesie_4.jpg",
+    "src": "gaspesie_4.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_5.jpg",
+    "src": "montreal_5.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/strangers_1.jpg",
+    "src": "strangers_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/metro_2.jpg",
+    "src": "metro_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/islande_4.jpg",
+    "src": "islande_4.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/islande_5.jpg",
+    "src": "islande_5.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/pjc_2.jpg",
+    "src": "pjc_2.jpg",
     "tag": "street",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/chinatown_1.jpg",
+    "src": "chinatown_1.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/village_1.jpg",
+    "src": "village_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_3.jpg",
+    "src": "italie_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sepaq_2.jpg",
+    "src": "sepaq_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sepaq_3.jpg",
+    "src": "sepaq_3.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/park_2.jpg",
+    "src": "park_2.jpg",
     "tag": "park",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_4.jpg",
+    "src": "italie_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_5.jpg",
+    "src": "italie_5.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_2.jpg",
+    "src": "men_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sunlife_2.jpg",
+    "src": "sunlife_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sepaq_4.jpg",
+    "src": "sepaq_4.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/metro_3.jpg",
+    "src": "metro_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_6.jpg",
+    "src": "montreal_6.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_9.jpg",
+    "src": "man_9.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/ro_1.jpg",
+    "src": "ro_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/ro_2.jpg",
+    "src": "ro_2.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/ro_3.jpg",
+    "src": "ro_3.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rdl_3.jpg",
+    "src": "rdl_3.jpg",
     "tag": "adventure",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rdl_4.jpg",
+    "src": "rdl_4.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/sepaq_5.jpg",
+    "src": "sepaq_5.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/toronto_1.jpg",
+    "src": "toronto_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_10.jpg",
+    "src": "man_10.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/chinatown_2.jpg",
+    "src": "chinatown_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_7.jpg",
+    "src": "montreal_7.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/pjc_3.jpg",
+    "src": "pjc_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/kid_1.jpg",
+    "src": "kid_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/kid_2.jpg",
+    "src": "kid_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/shadows_1.jpg",
+    "src": "shadows_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_3.jpg",
+    "src": "store_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_5.jpg",
+    "src": "couple_5.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_6.jpg",
+    "src": "vieux_6.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_7.jpg",
+    "src": "vieux_7.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_8.jpg",
+    "src": "vieux_8.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_5.jpg",
+    "src": "woman_5.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_6.jpg",
+    "src": "woman_6.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_7.jpg",
+    "src": "woman_7.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_11.jpg",
+    "src": "man_11.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_12.jpg",
+    "src": "man_12.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_13.jpg",
+    "src": "man_13.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_14.jpg",
+    "src": "man_14.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_3.jpg",
+    "src": "men_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_15.jpg",
+    "src": "man_15.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/car_1.jpg",
+    "src": "car_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/riders_1.jpg",
+    "src": "riders_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_4.jpg",
+    "src": "men_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_4.jpg",
+    "src": "store_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_5.jpg",
+    "src": "store_5.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/bike_1.jpg",
+    "src": "bike_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/books_1.jpg",
+    "src": "books_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/bike_2.jpg",
+    "src": "bike_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/cityscape_5.jpg",
+    "src": "cityscape_5.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/ccm_1.jpg",
+    "src": "ccm_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/ccm_2.jpg",
+    "src": "ccm_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/family_1.jpg",
+    "src": "family_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/family_2.jpg",
+    "src": "family_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_7.jpg",
+    "src": "couple_7.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_9.jpg",
+    "src": "couple_9.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_10.jpg",
+    "src": "couple_10.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_16.jpg",
+    "src": "man_16.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_17.jpg",
+    "src": "man_17.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/metro_4.jpg",
+    "src": "metro_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_8.jpg",
+    "src": "montreal_8.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_9.jpg",
+    "src": "montreal_9.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_10.jpg",
+    "src": "montreal_10.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_11.jpg",
+    "src": "montreal_11.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_12.jpg",
+    "src": "montreal_12.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_13.jpg",
+    "src": "montreal_13.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_14.jpg",
+    "src": "montreal_14.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_15.jpg",
+    "src": "montreal_15.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_17.jpg",
+    "src": "montreal_17.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/park_3.jpg",
+    "src": "park_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rider_2.jpg",
+    "src": "rider_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/rider_3.jpg",
+    "src": "rider_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/stade-o_1.jpg",
+    "src": "stade-o_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_9.jpg",
+    "src": "vieux_9.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_11.jpg",
+    "src": "vieux_11.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_12.jpg",
+    "src": "vieux_12.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/women_2.jpg",
+    "src": "women_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/women_3.jpg",
+    "src": "women_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/bea_2.jpg",
+    "src": "bea_2.jpg",
     "tag": "people, adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/caserne_1.jpg",
+    "src": "caserne_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/chinatown_3.jpg",
+    "src": "chinatown_3.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_11.jpg",
+    "src": "couple_11.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/couple_12.jpg",
+    "src": "couple_12.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_6.jpg",
+    "src": "italie_6.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_7.jpg",
+    "src": "italie_7.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_8.jpg",
+    "src": "italie_8.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_9.jpg",
+    "src": "italie_9.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_10.jpg",
+    "src": "italie_10.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_11.jpg",
+    "src": "italie_11.jpg",
     "tag": "adventure",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_12.jpg",
+    "src": "italie_12.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_13.jpg",
+    "src": "italie_13.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_14.jpg",
+    "src": "italie_14.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_15.jpg",
+    "src": "italie_15.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_16.jpg",
+    "src": "italie_16.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_17.jpg",
+    "src": "italie_17.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_18.jpg",
+    "src": "italie_18.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_19.jpg",
+    "src": "italie_19.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_20.jpg",
+    "src": "italie_20.jpg",
     "tag": "adventure, street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_21.jpg",
+    "src": "italie_21.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_22.jpg",
+    "src": "italie_22.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/italie_23.jpg",
+    "src": "italie_23.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_18.jpg",
+    "src": "man_18.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_19.jpg",
+    "src": "man_19.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_20.jpg",
+    "src": "man_20.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_21.jpg",
+    "src": "man_21.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_5.jpg",
+    "src": "men_5.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_18.jpg",
+    "src": "montreal_18.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/montreal_19.jpg",
+    "src": "montreal_19.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/newb_1.jpg",
+    "src": "newb_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/pjc_4.jpg",
+    "src": "pjc_4.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/shadows_2.jpg",
+    "src": "shadows_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/store_7.jpg",
+    "src": "store_7.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/saguenay_1.jpg",
+    "src": "saguenay_1.jpg",
     "tag": "adventure",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/toronto_2.jpg",
+    "src": "toronto_2.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_13.jpg",
+    "src": "vieux_13.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_15.jpg",
+    "src": "vieux_15.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_16.jpg",
+    "src": "vieux_16.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/vieux_17.jpg",
+    "src": "vieux_17.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_1.jpg",
+    "src": "black_white_1.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_2.jpg",
+    "src": "black_white_2.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_3.jpg",
+    "src": "black_white_3.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_4.jpg",
+    "src": "black_white_4.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_5.jpg",
+    "src": "black_white_5.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_6.jpg",
+    "src": "black_white_6.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_7.jpg",
+    "src": "black_white_7.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_8.jpg",
+    "src": "black_white_8.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_9.jpg",
+    "src": "black_white_9.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_10.jpg",
+    "src": "black_white_10.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_11.jpg",
+    "src": "black_white_11.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_12.jpg",
+    "src": "black_white_12.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_13.jpg",
+    "src": "black_white_13.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_14.jpg",
+    "src": "black_white_14.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_15.jpg",
+    "src": "black_white_15.jpg",
     "tag": "street, black",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_18.jpg",
+    "src": "black_white_18.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_19.jpg",
+    "src": "black_white_19.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_20.jpg",
+    "src": "black_white_20.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_21.jpg",
+    "src": "black_white_21.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_22.jpg",
+    "src": "black_white_22.jpg",
     "tag": "street, black",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/black_white_23.jpg",
+    "src": "black_white_23.jpg",
     "tag": "street, black, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_22.jpg",
+    "src": "man_22.jpg",
     "tag": "street, people",
     "featured": true
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/woman_9.jpg",
+    "src": "woman_9.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/men_6.jpg",
+    "src": "men_6.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/man_23.jpg",
+    "src": "man_23.jpg",
     "tag": "street, people",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/group_1.jpg",
+    "src": "group_1.jpg",
     "tag": "street",
     "featured": false
   },
   {
-    "src": "https://portfolio-image-lm.s3.us-east-2.amazonaws.com/family_3.jpg",
+    "src": "family_3.jpg",
     "tag": "street, people",
     "featured": false
   }

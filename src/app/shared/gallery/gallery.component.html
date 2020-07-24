@@ -54,7 +54,11 @@
       (click)="zoom($event, picture.src)"
       ngxMasonryItem
     >
-      <img src="{{ picture.src }}" />
+      <img
+        src="https://portfolio-thumbnail-lm.s3.ca-central-1.amazonaws.com/{{
+          picture.src
+        }}"
+      />
     </div>
   </ngx-masonry>
 </div>
